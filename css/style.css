@@ -6,12 +6,12 @@ body{
     padding: 0;
     }
 
-    
+
   /* HEADER */
     
  header{
      background-color: gray;
-     background-image: url("images/hero.jpg");
+     background-image: url("../images/burger2.jpg");
      background-size: 100%;
      background-position: center;
      height: 200px;
@@ -27,7 +27,7 @@ body{
  }
 
  header .logo a{
-     background-image: url("images/veganlogo2.jpg");
+     background-image: url("images/newlogo1.jpg");
      background-size: 300px;
      background-repeat: no-repeat;
      display: inline-block;
