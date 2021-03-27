@@ -1,0 +1,129 @@
+body{
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+
+  /* HEADER */
+    
+ header{
+     background-color: gray;
+     background-image: url("../images/burger2.jpg");
+     background-size: 100%;
+     background-position: center;
+     height: 200px;
+     padding: 20px;
+     text-align: center;
+ }
+ 
+ header a{ 
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     margin-top:  40px;
+ }
+
+ header .logo a{
+     background-image: url("newlogo1.png");
+     background-size: 300px;
+     background-repeat: no-repeat;
+     display: inline-block;
+     height: 80px;
+     position: relative;
+     text-indent:  -9999999px;
+     top: -30px;  
+     width: 300px;
+
+ }
+ nav ul{
+    margin: 10;
+    padding: 10;
+    list-style-type: none;
+
+}
+nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+
+  /* HEADER */
+    
+ header{
+     background-color: gray;
+     background-image: url("../images/burger2.jpg");
+     background-size: 100%;
+     background-position: center;
+     height: 200px;
+     padding: 40px;
+     text-align: center;
+ }
+ 
+ header a{ 
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     margin-top:  40px;
+ }
+
+ header .logo a{
+     background-image: url("newlogo1.png");
+     background-size: 300px;
+     background-repeat: no-repeat;
+     display: inline-block;
+     height: 80px;
+     position: relative;
+     text-indent:  -9999999px;
+     top: -30px;  
+     width: 300px;
+
+ }
+ nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ /* FOOTER */
+
+ footer{
+    background-color: gray;
+    color: white;
+    padding: 20px 20px;
+    text-align: left;
+ 
+}     
+
+.footer-social-icons ul{
+margin: 0px;
+padding: 0px;
+text-align: center;
+
+}
+
+.footer-social-icons ul li{
+display: inline-block;
+width: 40px;
+height: 40px;
+margin: 0px 10px;
+border-radius: 100%;background: orange;
+
+}
+
+.footer-social-icons ul li a{
+color: #272727;
+font-size: 25px;
+
+}
+
+.footer-social-icons ul li a i{
+line-height: 40px;
+}

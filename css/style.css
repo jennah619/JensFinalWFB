@@ -21,17 +21,18 @@ body{
  
  header a{ 
      color: white;
+     height: 100px;
      text-decoration: none;
      text-transform: uppercase;
-     margin-top:  40px;
+     margin-top:  20px;
  }
 
  header .logo a{
-     background-image: url("images/newlogo1.jpg");
-     background-size: 300px;
+     background-image: url("images/newlogo3.png");
+     background-size: 50px;
      background-repeat: no-repeat;
      display: inline-block;
-     height: 80px;
+     height: 10px;
      position: relative;
      text-indent:  -9999999px;
      top: -30px;  
@@ -46,7 +47,7 @@ body{
 }
 nav li{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 /* FEATURES */
@@ -68,17 +69,44 @@ nav li{
 
  .features figure img{
      border: 1px solid white;
-     border-radius: 50%;
+     border-radius: 60%;
      box-shadow: gray 0px 0 10px;
-     width: 200px;
+     width: 150px;
 
  }
 
  /* FOOTER */
+
 footer{
-    background: gray;
-    font-size: 15px;
-    padding: 20px 20px;
-    
+        background-color: gray;
+        color: white;
+        padding: 20px 20px;
+        text-align: left;
+   
+}     
+
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
 }
 
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+    border-radius: 100%;background: orange;
+
+}
+
+.footer-social-icons ul li a{
+    color: #272727;
+    font-size: 25px;
+
+}
+
+.footer-social-icons ul li a i{
+    line-height: 40px;
+}
