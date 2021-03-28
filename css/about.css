@@ -16,7 +16,7 @@ body{
      background-position: center;
      height: 200px;
      padding: 20px;
-     text-align: left;
+     text-align: center;
  }
  
  header a{ 
@@ -49,9 +49,8 @@ nav li{
     margin-right: 40px;
 }
 
-.about {
-    column-count: 3;
-    column-width: 100px;
+.container {
+   text-align: center;
   }
 
   .wrapper{
