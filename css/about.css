@@ -54,6 +54,15 @@ nav li{
     column-width: 100px;
   }
 
+  .wrapper{
+      margin: 0px;
+      width: 700px;
+  }
+
+  ifram{
+      width: 100%;
+  }
+
 
  /* FOOTER */
 
