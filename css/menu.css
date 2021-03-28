@@ -1,7 +1,7 @@
 body{
     background: black;
     color: white;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -52,3 +52,38 @@ body{
  .container{
      text-align: center;
  }
+ /* FOOTER */
+
+ footer{
+    background-color: gray;
+    color: white;
+    padding: 20px 20px;
+    text-align: right;
+ 
+}     
+
+.footer-social-icons ul{
+margin: 0px;
+padding: 0px;
+text-align: center;
+
+}
+
+.footer-social-icons ul li{
+display: inline-block;
+width: 40px;
+height: 40px;
+margin: 0px 10px;
+border-radius: 100%;background: orange;
+
+}
+
+.footer-social-icons ul li a{
+color: #272727;
+font-size: 25px;
+
+}
+
+.footer-social-icons ul li a i{
+line-height: 40px;
+}
