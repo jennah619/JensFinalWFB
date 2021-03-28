@@ -1,0 +1,54 @@
+body{
+    background: black;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}         
+
+  /* HEADER */
+    
+ header{
+     background-color: gray;
+     background-image: url("../images/burger2.jpg");
+     background-size: 100%;
+     background-position: center;
+     height: 200px;
+     padding: 20px;
+     text-align: left;
+ }
+ 
+ header a{ 
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     margin-top:  40px;
+ }
+ header .logo a{
+    background-image: url("images/newlogo1.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent:  -9999999px;
+    top: -30px;  
+    width: 300px;
+ }
+
+ header .logo a{
+     background-image: url("images/newlogo1.png");
+     background-size: 300px;
+     background-repeat: no-repeat;
+     display: inline-block;
+     height: 80px;
+     position: relative;
+     text-indent:  -9999999px;
+     top: -30px;  
+     width: 300px;
+
+ }
+ .container{
+     text-align: center;
+ }
