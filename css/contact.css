@@ -25,7 +25,7 @@
          text-decoration: none;
          text-transform: uppercase;
          margin-top:  40px;
-         
+
      }
      header .logo a{
         background-image: url("images/newlogo1.png");
@@ -54,6 +54,7 @@
     .container{
         text-align: center;
     }
+    
     input[type=text], select, textarea {
         width: 50%;
         padding: 12px;
